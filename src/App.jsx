@@ -21,7 +21,9 @@ const App = () => {
   const darkmode = new Darkmode(options);
   darkmode.showWidget();
 
-  return <div className="nes-container">Bienvenue sur mon folio test</div>;
+  return (
+    <div className="nes-container is-dark">Bienvenue sur mon folio test</div>
+  );
 };
 
 export default App;
